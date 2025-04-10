@@ -38,7 +38,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboos
 
 ### Option A: Jupyter Notebook
 
-1. Open `所有代码.txt` (converted to `.ipynb`)  
+1. Open 'Data preprocessing.ipynb'   
 2. Run cells sequentially to:
    - Preprocess data
    - Train models
@@ -65,7 +65,7 @@ streamlit run app.py
 
 ```
 ├── app.py                  # Streamlit app entry point
-├── 所有代码.txt              # Full model training and tuning code (can convert to .ipynb)
+├── Data preprocessing.ipynb# Full model training and tuning code 
 ├── Covid Data.csv          # Raw dataset (user-provided)
 ├── covid_subset_*.csv      # Optional mini test datasets (for app testing)
 ```
@@ -75,7 +75,7 @@ streamlit run app.py
 ## 🧠 Acknowledgements
 
 - Part of the data cleaning and feature engineering logic was adapted (with modification) from a public Kaggle notebook authored by **Kaan Karaduman**:  
-  https://www.kaggle.com/code/kaanb94/covid-19-prediction
+  https://www.kaggle.com/code/kaanxtr/covid-19-visualization-machine-learning/notebook
 
 - The Streamlit implementation and model tuning pipeline were developed by the project author.
 
